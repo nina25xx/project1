@@ -1,0 +1,177 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2e8cf;
+}
+.header{
+    border-bottom: 2px solid #063505;
+}
+#logo-i-soc{
+    display: flex;
+}
+#logo-hold{
+    flex-grow: 3;
+}
+#logo-hold  img{
+    height: 70px;
+    width: 70px;
+}
+
+#soc-hold{
+    flex-grow: 1;
+    text-align: right;
+}
+#soc-hold a{
+    text-decoration: none;
+}
+#soc-hold a img{
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+
+}
+
+#main-meni{
+    display: flex;
+
+}
+#main-meni a {
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #114232;
+    transition: 250ms;
+
+}
+#main-meni a:hover {
+    background: #bc4749;
+    color:#a7c957;
+}
+#main-meni a.active {
+    background:#bc4749 ;
+    color:#a7c957;
+}
+
+.coll{
+    width: 1000px;
+    margin: 0px auto;
+}
+.page .coll{
+    height: 100vh;
+}
+
+#pocetna{
+    text-align: center;
+    color: #31572c;
+    background: url("slike/slika7.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#pocetna h1{
+    font-size: 50pt;
+    margin-top: 0px;
+    padding-top: calc(50vh-250px);
+
+}
+.dark-box{
+    background-color: #d8f3dc69;
+    border: 1px solid black;
+    font-size: 45px;
+    padding: 40px;
+}
+#o-nama{
+    background: url("slike/slika8.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#kontakt{
+    background-attachment:scroll;
+}
+#prijava{
+    background: url("img/icon2.png");
+    background-size: cover;
+    background-attachment: fixed
+}
+.allign-centar{
+    text-align: center;
+}
+.krugovi{
+    display: flex;
+}
+.krug-hold{
+    flex-grow: 5; /*deo siirne na strani */
+    text-align: center;
+
+}
+.krug{
+    background: rgba(0, 0, 0, 0.747);
+    color: antiquewhite;
+    font-size: 35px;
+    display: inline-block;
+    padding: 100px;
+    width: 100px;
+    border-radius: 15%;
+}
+.tekst{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10pt;
+
+}
+#forma{
+    font-size: 35pt;
+    
+}
+.dugme{
+    cursor: pointer;
+    background: #063505;
+    color: #f2e8cf;
+    font-size: 25px;
+    display: inline-block;
+    border-radius: 45%;
+}
+.im{
+    color:#114232;
+    display:flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100pt;
+
+}
+.table1{
+    color:#bc4749;
+
+}
+.slika-hold{
+    flex-grow: 1;
+    text-align: right;
+}
+.slika-hold  img{
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+#trecastr{
+text-align: center;
+    color: #31572c;
+    background: url("slike/slika9.png");
+    background-size: cover;
+    background-attachment: fixed;}
+
+#cetastr{
+    text-align: center;
+        color: #31572c;
+        background-color: bisque;
+        background-size: cover;
+        background-attachment: fixed;}
+ #petastr{
+    text-align: center;
+        color: #31572c;
+        background:url("slike/slika12.png");
+        background-size: cover;
+        background-attachment: fixed;}
+
+

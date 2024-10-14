@@ -1,0 +1,33 @@
+body{
+    background-image:url("slike/slika15.png");
+    background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position:center;
+font-family:"Palatino, URW Palladio L, serif" ;
+    }
+
+
+    .table {
+        table-layout: fixed;
+        width: 100%;
+        border-collapse: collapse;
+        border: 3px solid purple;
+      }
+      td{
+        font-size: 1em;
+        padding: 10px 15px; 
+        border-radius:10px;
+        box-shadow: 0px 0px 0.7px 0.33px rgb(0,0,0.757);
+        min-height:30px; 
+        min-width: 120px;
+    }
+    .label{
+        font-size: 1em;
+        padding: 7px 10px; 
+        border-radius:10px;
+        box-shadow: 0px 0px 0.7px 0.33px rgb(0,0,0.757);
+        min-height:25px; 
+        min-width: 70px;
+
+    }
