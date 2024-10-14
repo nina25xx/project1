@@ -1,6 +1,6 @@
 <?php include 'session.php'; ?>
 <?php include 'conn.php'; ?>
-
+*/deo gde korisnik pristupa izboru balona/*
 <?php
 $idKorisnik=$_SESSION['idKorisnik'];
 
